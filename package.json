@@ -1,0 +1,16 @@
+{
+  "name": "lefox-status-bot",
+  "version": "2.0.0",
+  "description": "Team status embed bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy-commands": "node deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "better-sqlite3": "^8.0.0",
+    "dotenv": "^16.0.0",
+    "date-fns": "^2.30.0"
+  }
+}
